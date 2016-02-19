@@ -1,0 +1,300 @@
+/** START OF THE CAROSUL CSS**/
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-bottom: 20px;
+  background-image:url('https://scontent-lax3-1.xx.fbcdn.net/hphotos-xft1/v/t1.0-9/q84/s851x315/12743834_1089221411116573_3195159495714609469_n.jpg?oh=53a26268cb658494fad45879d56171ee&oe=57695C31');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+
+}
+.font{
+  color: #FFFFFF;
+}
+
+.footer{
+  text-align: center;
+  padding: 20px;
+}
+
+.img-circle{
+  height: 250px;
+  width: 300px;
+
+}
+.Horde{
+  height: 350px;
+  width: auto;
+  border-radius: 15px;
+}
+
+.kord{
+  height: 400px;
+  width: auto;
+  border-radius: 15px;
+}
+
+.fight {
+  border-radius: 15px;
+}
+
+
+
+/* CUSTOMIZE THE NAVBAR--- My Styles------------------------------ */
+.Sunspear{
+  max-height: 50px;
+  position: relative;
+  left:0;
+  top:0;
+  margin:15px;
+}
+.navbar-nav{
+  margin:15px;
+}
+
+/*----- Nav-Bar Stuff Default - not my Styles---*/
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper > .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.navbar-wrapper .navbar .container {
+  width: auto;
+}
+
+
+/* CUSTOMIZE THE CAROUSEL------- DEFAULT STYLES------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 500px;
+  background-color: #777;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+  margin: 0;
+}
+.marketing .col-lg-4 p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+.s1 {
+  padding-top: 50px;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+    margin-top: 120px;
+  }
+}
+/**END OF THE CAROUSEL & NAVBAR CSS**/
+
+
+
+
+/**-------- Colors --------**/
+
+.navbar, .navbar-default{
+  background-color: #791515;
+  border-color: #791515 !important;
+
+}
+.navbar-default .navbar-nav>li>a{
+  color:white;
+}
+
+
+
+
+/*------ START OF WAR OF WRATH PAGE CSS STYLES ------ */
+.wow{
+  color: red;
+}
+
+
+
+
+/**============================================================================
+======== START OF THE CONTACT PAGE CSS=========================================
+=============================================================================**/
+
+#hike_logo_img {
+    background-position: 0 0;
+    display: none;
+	}
+
+#container {
+	background:url() no-repeat;
+	height: 855px;
+/**	width: 800px; **/
+
+
+	}
+
+#form1 {
+  margin: 0 auto;
+	left: 550px;
+	background: #fcfff1;
+	width: 550px;
+	height: 400px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+-moz-box-shadow: 0px 0px 7px #000;
+-webkit-box-shadow: 0px 0px 7px #000;
+box-shadow: 0px 0px 7px #000;
+	}
+
+	#container p {
+		color: #346a2e;
+		padding: 10px 20px 20px 20px;
+		font-size: 17px;
+		font-family:Arial, Helvetica, sans-serif;
+	}
+
+		#container p span {
+		color: #346a2e;
+		font-size: 13px;
+		padding-left: 40px;
+	}
+
+	.form_labels {
+		padding-left: 38px;
+		color: #1a6e34;
+		margin-top: -20px;
+		font-family:Arial, Helvetica, sans-serif;
+	}
+
+	.form_labels label {
+	}
+
+	input #name {
+		color: red;
+	}
+
+	#button {
+		width: 75px;
+		height: 30px;
+		background: white;
+		border: 1px solid #717171;
+		font-weight:bold;
+		-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		border-radius: 3px;
+
+	}
+
+/**=============================================================================
+==================SOCIAL MEDIA ICONS ===========================================
+=============================================================================**/
+.fa {
+     background-color:rbg(141 ,198 ,63);
+     border:3px solid #FFFFFF;
+     border-radius:100%;
+     font-size:2em !important;
+     margin:15px;
+     color:#FFFFFF;
+     height:37px;
+     width:35px;
+     transition:background 0.6s linear 0s, color 0.6s linear 0s;
+}
+
+
+.fa:hover {
+     color:#0000FF;
+     background-color:#FFFFFF;
+}
