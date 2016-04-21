@@ -1,6 +1,10 @@
 /** START OF THE CAROSUL CSS**/
 /* GLOBAL STYLES
 -------------------------------------------------- */
+@font-face {
+    font-family: "realmBanner";
+    src: url("../fonts/dalelands-uncial.ttf");
+} /* this is the Font for the Top Left Text of "Sunspear Belegarth" and is the current realm Banner Text as of 4-20-2016*/
 /* Padding below the footer and lighter body text */
 
 body {
@@ -46,8 +50,10 @@ body {
 
 /* CUSTOMIZE THE NAVBAR--- My Styles------------------------------ */
 .Sunspear{
-  max-height: 50px;
-  position: relative;
+  font-family: "realmBanner";
+  font-size: 30px;
+  position: absolute;
+  color: #e2c61c;
   left:0;
   top:0;
   margin:15px;
