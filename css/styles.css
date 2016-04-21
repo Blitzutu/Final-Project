@@ -5,7 +5,7 @@
 
 body {
   padding-bottom: 20px;
-  background-image:url('https://scontent-lax3-1.xx.fbcdn.net/hphotos-xft1/v/t1.0-9/q84/s851x315/12743834_1089221411116573_3195159495714609469_n.jpg?oh=53a26268cb658494fad45879d56171ee&oe=57695C31');
+  background-image:url('https://scontent-lax3-1.xx.fbcdn.net/hphotos-xta1/v/t1.0-0/q89/p206x206/12745802_1089271871111527_3965463030700664319_n.jpg?oh=d028a0daea2cd0d4289f9388b2dbe65c&oe=57503598');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -13,7 +13,7 @@ body {
 
 }
 .font{
-  color: #FFFFFF;
+  color: #000000;
 }
 
 .footer{
@@ -283,11 +283,11 @@ box-shadow: 0px 0px 7px #000;
 =============================================================================**/
 .fa {
      background-color:rbg(141 ,198 ,63);
-     border:3px solid #FFFFFF;
+     border:3px solid #000000;
      border-radius:100%;
      font-size:2em !important;
      margin:15px;
-     color:#FFFFFF;
+     color:#000000;
      height:37px;
      width:35px;
      transition:background 0.6s linear 0s, color 0.6s linear 0s;
